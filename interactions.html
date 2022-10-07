@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/screen.css">
+
+    <script src="script/app.js"></script>
 </head>
 
 <body>
@@ -53,9 +55,9 @@
                                 <input class="c-input" type="password"
                                        name="password" id="password" required>
                                 <span class="c-toggle-password">
-                                    <input class="c-toggle-password__checkbox"
+                                    <input class="c-toggle-password__checkbox o-hide-accessible js-checkbox"
                                            type="checkbox" id="togglePassword">
-                                    <label class="c-toggle-password__label"
+                                    <label class="c-toggle-password__label js-input-password"
                                            for="togglePassword">
                                         <svg class="c-toggle-password__icon c-toggle-password__icon--hide"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -84,8 +86,8 @@
                             Like this excercise!
                         </h5>
                         <p>
-                            <input type="checkbox" />
-                            <label>
+                            <input type="checkbox" class="c-like__checkbox o-hide-accessible"/>
+                            <label class="c-like__symbol">
                                 <svg
                                      xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"
